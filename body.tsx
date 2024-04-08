@@ -1,10 +1,10 @@
+import Aside from "./aside";
+import Main from "./main";
 
 const Body = () => (
-    <body>
-        <header>
-            <h1>My watchlist</h1>
-        </header>
-        <main></main>
+    <body class="grid grid-cols-2 h-screen">
+        <Aside />
+        <Main />
     </body>
 )
 
