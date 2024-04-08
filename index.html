@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+    <title>My Bookstore</title>
+  </head>
+  <body>
+    <h1>My Bookstore</h1>
+    <button type="button">Add Book</button>
+    <button type="button">Remove Book</button>
+    <button type="button">Update Book</button>
+    <button hx-post="/clicked" hx-swap="outerHTML">Click Me</button>
+    <ul id="bookList"></ul>
+  </body>
+</html>

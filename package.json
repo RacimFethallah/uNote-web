@@ -1,0 +1,17 @@
+{
+  "name": "unote-web",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typed-html": "^3.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^1.0.2",
+    "@elysiajs/static": "^1.0.2",
+    "elysia": "^1.0.13"
+  }
+}
