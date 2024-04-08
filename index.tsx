@@ -8,7 +8,7 @@ const app = new Elysia()
     .use(html())
     .get("/", () => (
         <Layout>
-            <h1>heey there</h1>
+            <Body />
         </Layout>
     ))
     .listen(3000);
